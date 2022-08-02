@@ -50,7 +50,7 @@ def get_response(input_string):
 
     # Check if input is empty
     if input_string == "":
-        return "Please type something so we can chat :("
+        return "you can type something in chat."
 
     # If there is no good response, return a random one.
     if best_response != 0:
